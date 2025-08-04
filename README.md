@@ -49,3 +49,8 @@ git clone https://github.com/yourusername/siri-py.git
 cd siri-py
 pip install -r requirements.txt
 
+pip install speechrecognition pyttsx3 wikipedia pywhatkit
+
+Run the Assistant
+python ai.py
+
