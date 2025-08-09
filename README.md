@@ -33,13 +33,13 @@ It uses **speech recognition** for voice commands, **text-to-speech** for respon
 ## ⚙️ Installation & Setup
 
 1. **Clone the repository**  
-   git clone https://github.com/your-username/siri-virtual-assistant.git
-   cd siri-virtual-assistant
+git clone https://github.com/your-username/siri-virtual-assistant.git
+cd siri-virtual-assistant
 
- 2.**Install dependencies**
+2.**Install dependencies**
 pip install speechrecognition pyttsx3 wikipedia pywhatkit
 
- 3.**Run the assistant**
+3.**Run the assistant**
 python ai.py
 
 ## 🎯 Example Commands
