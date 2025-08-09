@@ -1,7 +1,5 @@
-# siri_readme.py
-def siri_readme():
-    readme_content = """
-# Siri Virtual Assistant (Python)
+
+# Siri-Py-A-Simple-Python-Voice-Assistant
 
 ## 📌 Overview
 The **Siri Virtual Assistant** is a Python-based voice-controlled AI assistant that can perform a variety of tasks such as answering questions, opening websites, playing music, giving the current time, and more.  
