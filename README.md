@@ -1,56 +1,52 @@
-# 🧠 Siri-Py: A Python-Powered Virtual Voice Assistant
+# siri_readme.py
+def siri_readme():
+    readme_content = """
+# Siri Virtual Assistant (Python)
 
-Siri-Py is an intelligent, voice-activated virtual assistant developed in Python. Designed to understand natural speech and respond with synthesized voice output, it can execute a wide range of tasks including web navigation, media playback, time queries, and information retrieval via Wikipedia. This project showcases an integration of speech recognition, text-to-speech, and intelligent command handling to build an interactive, hands-free assistant experience.
+## 📌 Overview
+The **Siri Virtual Assistant** is a Python-based voice-controlled AI assistant that can perform a variety of tasks such as answering questions, opening websites, playing music, giving the current time, and more.  
+It uses **speech recognition** for voice commands, **text-to-speech** for responses, and integrates with popular libraries like Wikipedia and PyWhatKit for dynamic functionality.
 
----
 
-## 🎯 Project Objective
+## 🚀 Features
+- 🎤 **Voice Command Recognition** – Listens to and processes user voice inputs.
+- 🗣 **Text-to-Speech Responses** – Replies with a natural-sounding voice.
+- 📚 **Wikipedia Search** – Retrieves quick summaries of topics.
+- 🌐 **Web Browsing** – Opens websites like Google, YouTube, and online games.
+- 🎶 **Music Playback** – Plays songs directly from YouTube.
+- ⏰ **Time Updates** – Tells the current time.
+- 💬 **Casual Conversations** – Responds to greetings and small talk.
+- 🏥 **Basic Medical Information** – Retrieves health-related info from Wikipedia (not for diagnosis).
+- ⏯ **Pause & Resume** – Ability to pause listening and resume later.
+- 🔄 **Multi-command Support** – Recognizes a variety of natural speech patterns.
 
-To develop a modular, customizable voice assistant capable of understanding and executing basic spoken commands in English, with basic multilingual support. The project demonstrates real-time voice interaction, speech recognition, and audio response using Python libraries.
 
----
+## 🛠 Technologies Used
+- **Python 3**
+- [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) – For voice input processing
+- [pyttsx3](https://pypi.org/project/pyttsx3/) – For text-to-speech
+- [Wikipedia](https://pypi.org/project/wikipedia/) – To fetch quick summaries
+- [webbrowser](https://docs.python.org/3/library/webbrowser.html) – To open URLs
+- [PyWhatKit](https://pypi.org/project/pywhatkit/) – For YouTube song playback
+- [datetime](https://docs.python.org/3/library/datetime.html) – For time-based responses
 
-## 🔧 Core Features
+## 📂 Project Structure
 
-- 🎙 **Speech Recognition:** Real-time command listening via microphone  
-- 🗣 **Text-to-Speech:** Natural voice responses using `pyttsx3`  
-- 🌐 **Wikipedia Integration:** Quick summaries for general knowledge queries  
-- 📺 **YouTube Playback:** Play songs or videos via `pywhatkit`  
-- 🕒 **Time Inquiry:** Announces the current time  
-- 🧠 **Basic AI Responses:** Understands simple queries like greetings, gratitude, and identity  
-- 🌍 **Web Automation:** Opens common websites like Google, YouTube, and online games  
-- ⚕ **Medical Inquiry Placeholder:** Responds to medical topics using Wikipedia summaries  
-- 🔄 **Session Management:** Pause and resume the assistant via voice command  
+## ⚙️ Installation & Setup
+1. **Clone the repository**  
+   git clone https://github.com/your-username/siri-virtual-assistant.git
+   cd siri-virtual-assistant
 
----
-
-## 📦 Tech Stack
-
-- **Python 3.x**
-- [`speech_recognition`](https://pypi.org/project/SpeechRecognition/)
-- [`pyttsx3`](https://pypi.org/project/pyttsx3/)
-- [`wikipedia`](https://pypi.org/project/wikipedia/)
-- [`pywhatkit`](https://pypi.org/project/pywhatkit/)
-- `webbrowser` (standard library)
-- `datetime` (standard library)
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Ensure Python 3.x and `pip` are installed on your machine.
-
-### Installation
-
-```bash
-git clone https://github.com/yourusername/siri-py.git
-cd siri-py
-pip install -r requirements.txt
-
+2.**Install dependencies**
 pip install speechrecognition pyttsx3 wikipedia pywhatkit
 
-Run the Assistant
+3.**Run the assistant**
 python ai.py
 
+## 🎯 Example Commands
+**Wikipedia Albert Einstein"** → Reads a short summary from Wikipedia.
+**"Open YouTube"** → Opens YouTube in your browser.
+**"Play Shape of You"** → Plays the song on YouTube.
+**"Time"** → Tells the current time.
+**"Pause"** → Pauses listening.
+**"Resume"** → Resumes listening.
