@@ -42,9 +42,9 @@ pip install speechrecognition pyttsx3 wikipedia pywhatkit
 python ai.py
 
 ## 🎯 Example Commands
-**Wikipedia Albert Einstein"** → Reads a short summary from Wikipedia.
-**"Open YouTube"** → Opens YouTube in your browser.
-**"Play Shape of You"** → Plays the song on YouTube.
-**"Time"** → Tells the current time.
-**"Pause"** → Pauses listening.
-**"Resume"** → Resumes listening.
+- **"Wikipedia Albert Einstein"** → Reads a short summary from Wikipedia.
+- **"Open YouTube"** → Opens YouTube in your browser.
+- **"Play Shape of You"** → Plays the song on YouTube.
+- **"Time"** → Tells the current time.
+- **"Pause"** → Pauses listening.
+- **"Resume"** → Resumes listening.
